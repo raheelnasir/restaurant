@@ -1,0 +1,269 @@
+:root {
+    --bg-dark: #1e3238;
+    --bg-brown: #f7b58c;
+    --bg-orange: #f1533b;
+    --red: #ff4646;
+    --bg-black: #192f34;
+    --bg-dark-blue: #05355e;
+    --main-dark: #0F172B;
+    --main-yellow: #FEA116;
+}
+
+
+.footer-main {
+    overflow: hidden;
+    background-color: var(--main-dark);
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-heros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    margin-top: "5px"
+}
+
+.footer-address h1 {
+    color: white;
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+
+.f-location {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    width: fit-content;
+    margin-top: 5px;
+    font-family: cursive;
+
+}
+
+.f-location h6 {
+    color: white;
+    margin: auto;
+    font-family: cursive;
+
+    padding-left: 5px;
+    padding-bottom: 2px;
+    font-family: cursive;
+
+}
+
+.f-emailer {
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+
+    padding: 8px;
+    width: fit-content;
+}
+
+.f-emailer a {
+    color: white;
+    margin: auto;
+    padding-left: 8px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+
+.f-caller {
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+
+    padding: 8px;
+    width: fit-content;
+}
+
+.f-caller:hover {
+    color: var(--red) !important;
+}
+
+.f-caller a {
+    color: #D3dad1;
+    margin: auto;
+    padding-left: 8px;
+    font-family: cursive;
+
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+#footer-color {
+    color: white;
+}
+
+#footer-color:hover {
+    color: var(--red);
+}
+
+.footer-social {
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    margin-top: "5px";
+    font-family: cursive;
+
+
+
+}
+
+.s-color {
+    color: white;
+    font-size: 30px;
+    padding-left: 8px;
+    margin: auto;
+    font-family: cursive;
+
+
+}
+
+.s-color:hover {
+    color: var(--main-yellow);
+}
+
+
+/* Hover effect for child icons when hovering over the parent div */
+.f-location:hover #footer-color,
+.f-caller:hover #footer-color,
+.f-emailer:hover #footer-color {
+    color: var(--main-yellow) !important;
+    /* Change the color to red on hover */
+    /* Add any other styles you want for the child icons on hover */
+}
+
+/* Additional hover effect for child text when hovering over the parent div */
+.f-location:hover h6,
+.f-caller:hover a,
+.f-emailer:hover a {
+    color: var(--main-yellow) !important;
+    /* Change the color to red on hover */
+    font-family: cursive;
+
+    /* Add any other styles you want for the child text on hover */
+}
+
+
+/* Linkss */
+
+.footer-nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: "5px";
+    font-family: cursive;
+
+
+}
+
+.footer-nav-links h1 {
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: cursive;
+
+}
+
+.f-nav-links {
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+
+}
+
+.f-nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.f-nav-links a:hover {
+    color: var(--main-yellow);
+}
+
+.sad {
+    color: var(--main-yellow);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: "5px"
+    ;
+}
+
+.footer-info h1 {
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: cursive;
+
+}
+
+.footer-info p {
+    width: fit-content;
+    color: #D3dad1;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.footer-subscriber {
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+
+}
+
+.footer-subscriber h1 {
+    color: white;
+
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+.footer-subscriber input {
+
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: #D3dad1;
+
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.footer-subscriber input::placeholder {
+    color: #D3dad1;
+}
+
+
+.footer-subscriber button {
+    background-color: var(--main-yellow);
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: larger;
+    transition: all 1s;
+}
+
+.footer-subscriber button:hover {
+    box-shadow: 2px 1px 1px 1px white;
+    transition: all 1s;
+}

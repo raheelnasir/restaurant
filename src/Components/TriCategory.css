@@ -1,0 +1,69 @@
+:root {
+    --bg-dark: #1e3238;
+    --bg-brown: #f7b58c;
+    --bg-orange: #f1533b;
+    --red: #ff4646;
+    --bg-black: #192f34;
+    --bg-dark-blue: #05355e;
+    --main-dark: #0F172B;
+    --main-yellow: #FEA116;
+}
+
+.tricategory-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 50px 0px;
+}
+
+
+
+.tricat {
+    padding: 0px 5px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.menu-items {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.actives {
+    border-bottom: 1px solid var(--main-yellow);
+}
+
+.menu-item {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    min-width: 40%;
+    height: 100px;
+    margin: 40px auto !important;
+    animation: come 1s 0s 1;
+}
+
+@keyframes come {
+    0% {
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+
+    50% {
+        opacity: 1;
+        transition: all 1s ease-in-out;
+
+    }
+
+}
+
+.menu-item:hover div {
+    color: #FEA116;
+}

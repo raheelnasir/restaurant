@@ -1,0 +1,75 @@
+:root {
+    --bg-dark: #1e3238;
+    --bg-brown: #f7b58c;
+    --bg-orange: #f1533b;
+    --red: #ff4646;
+    --bg-black: #192f34;
+    --bg-dark-blue: #05355e;
+    --main-dark: #0F172B;
+    --main-yellow: #FEA116;
+}
+
+.profile-card-holder {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+
+.profile-card-about {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 4px;
+    margin: 10px auto;
+    border-radius: 15px;
+    flex: 1 !important;
+    padding: 10px 20px;
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.profile-card-about:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.profile-card-about:hover {
+    background-color: var(--main-yellow);
+    transition: all 0.5s ease-in-out;
+
+    color: white !important;
+}
+
+.profile-card-about h6 {
+    font-weight: 600;
+
+}
+
+.profile-card-about p {
+    transition: all 0.5s ease-in-out;
+}
+
+.profile-card-about:hover p {
+    color: white !important;
+
+}
+
+
+.profile-card-about img {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+
+    height: 200px;
+    margin: auto;
+}
+
+.profile-card-about div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    line-height: 0ch;
+}

@@ -1,0 +1,59 @@
+:root {
+    --bg-dark: #1e3238;
+    --bg-brown: #f7b58c;
+    --bg-orange: #f1533b;
+    --red: #ff4646;
+    --bg-black: #192f34;
+    --bg-dark-blue: #05355e;
+    --main-dark: #0F172B;
+    --main-yellow: #FEA116;
+}
+
+
+.feature-card {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    justify-content: left;
+    border-radius: 4px;
+    margin: 10px 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+#utens {
+    font-size: 40px;
+    float: left;
+    padding: 20px 10px;
+    width: max-content;
+    color: var(--main-yellow);
+
+}
+
+.feature-card h6 {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: var(--main-dark);
+    font-weight: 700;
+
+}
+
+.feature-card p {
+    padding: 0px 10px;
+    color: grey;
+}
+
+.feature-card:hover {
+    background-color: var(--main-yellow);
+}
+
+.feature-card:hover #utens {
+    color: white;
+}
+
+.feature-card:hover h6 {
+    color: white !important;
+}
+
+.feature-card:hover p {
+    color: white;
+}

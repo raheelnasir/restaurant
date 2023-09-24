@@ -1,0 +1,118 @@
+:root {
+    --bg-dark: #1e3238;
+    --bg-brown: #f7b58c;
+    --bg-orange: #f1533b;
+    --red: #ff4646;
+    --bg-black: #192f34;
+    --bg-dark-blue: #05355e;
+    --main-dark: #0F172B;
+    --main-yellow: #FEA116;
+}
+
+
+
+.home-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-3 div {
+    margin: 5px;
+}
+
+.picture-holder {
+    flex: 1 !important;
+    padding: 10px 30px;
+    display: flex !important;
+    min-width: 50% !important;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 800px) {
+    .home-3 {
+        flex-direction: column !important;
+    }
+}
+
+.picture-detail {
+    padding: 10px 30px;
+    margin: auto;
+    flex: 1 !important;
+    min-width: 47% !important;
+}
+
+.picture-holder div span img {
+
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.picture-holder div span {
+    overflow: hidden !important;
+    margin: 5px;
+    width: 25%;
+
+
+}
+
+
+.picture-holder div span img:hover {
+    transform: scale(1.2);
+}
+
+
+/*  */
+
+
+.home-hero-section {
+    background: linear-gradient(rgba(15, 23, 43, 0.6), rgba(15, 23, 43, 0.8)), url('https://cdn.leonardo.ai/users/9c5c81ee-0af6-45d2-a406-940450d62697/generations/56b15d66-14a6-4544-a8e0-148fbd55cd6e/DreamShaper_v7_aesthetic_night_store_medival_times_outdoor_0.jpg');
+    min-height: max-content !important;
+    padding-top: 200px !important;
+    height: max-content !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.btn-home {
+    width: max-content !important;
+    margin: auto !important;
+    padding: auto 30px !important;
+}
+
+.home-hero-heading-s {
+    width: 100%;
+    display: flex;
+    text-align: center !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-hero-heading-s:nth-child(1) {
+    color: white;
+}
+
+.home-hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-hero-heading-s {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    line-height: 60px;
+}
+
+.about-info-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about-info-main div{
+    width: 50%;
+}
